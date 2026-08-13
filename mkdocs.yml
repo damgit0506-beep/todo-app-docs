@@ -1,0 +1,42 @@
+site_name: Eco Robot ER-10 Documentation
+site_description: Professional Documentation Portal for the Eco Robot ER-10
+site_author: George
+
+theme:
+  name: material
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+
+  - Getting Started:
+      - Safety: safety.md
+      - Installation: installation.md
+      - First Startup: first-startup.md
+
+  - Using the Robot:
+      - Robot Operation: robot-operation.md
+      - Maintenance: maintenance.md
+      - Troubleshooting: troubleshooting.md
+
+  - Reference:
+      - Technical Specifications: technical-specifications.md
+      - FAQ: faq.md
+      - Release Notes: release-notes.md
+
+  - Developer Resources:
+      - Documentation Style Guide: style-guide.md
+
+      
+
+
+ 
+  
+
